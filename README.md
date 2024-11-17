@@ -10,6 +10,13 @@ Lapisan pooling mengikuti lapisan konvolusional untuk mengurangi dimensi data. I
 ### Fully Connected Layer 
 fully connected (FC), di mana setiap neuron terhubung ke semua neuron di lapisan sebelumnya. Lapisan ini digunakan untuk membuat keputusan akhir berdasarkan fitur yang telah diekstraksi.
 
+## Penjelasan Code
+### Code Link 2
+Kode pada link 2  membangun dan melatih model Convolutional Neural Network (CNN) untuk klasifikasi gambar anjing dan kucing. Model ini terdiri dari lapisan konvolusi untuk ekstraksi fitur, dilanjutkan dengan lapisan pooling untuk mengurangi dimensi, dan lapisan dense untuk pengklasifikasian. Data gambar pelatihan diproses dengan augmentasi (seperti shear, zoom, dan flip) menggunakan ImageDataGenerator, sedangkan data pengujian hanya dilakukan rescaling. Model dilatih dengan 50 epoch menggunakan optimizer Adam dan fungsi loss binary crossentropy. Setelah pelatihan, model diuji dengan gambar dari set pengujian, dan hasil prediksi jumlah anjing dan kucing dicetak untuk evaluasi performa model.
+
+### Code Link 3
+Code pada link 3 ini membahas penerapan Convolutional Neural Network (CNN) untuk pengenalan gambar menggunakan dataset CIFAR-10 yang terdiri dari 60,000 gambar berwarna dalam 10 kelas, yaitu: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, dan truck. CNN dibangun dengan menggunakan beberapa layer seperti Convolutional Layer untuk ekstraksi fitur, Pooling Layer untuk downsampling, dan Fully Connected Layer untuk klasifikasi. Dataset CIFAR-10 diproses dengan normalisasi gambar dan konversi label ke format kategorikal untuk pelatihan model. Model CNN dilatih dengan optimizer Adam dan fungsi loss categorical crossentropy, lalu dievaluasi menggunakan data tes untuk mengukur akurasi. Setelah pelatihan, model dapat digunakan untuk memprediksi kelas gambar baru dengan melakukan inferensi pada gambar yang diunggah oleh pengguna.
+
 # Link Materi dan Code
 1. https://www.megabagus.id/deep-learning-convolutional-neural-networks/
 2. https://www.megabagus.id/deep-learning-convolutional-neural-networks-aplikasi/
